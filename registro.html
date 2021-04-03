@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Registre-se</title>
+  </head>
+  <body id="register-field">
+    <main class="login-field">
+      <div>
+        <h1>Registre-se</h1>
+        <div class="login-with-google">
+          <img src="assets/google.svg" alt="" />
+          <span>Registrar com uma conta google</span>
+        </div>
+        <span id="or">ou</span>
+        <div class="users-fields">
+          <label for="email">
+            Email <span>*</span>
+            <input
+              id="email"
+              type="text"
+              placeholder="Digite seu nome de usuario"
+              required
+            />
+          </label>
+          <label for="user">
+            Usuário <span>*</span>
+            <input
+              id="user"
+              type="text"
+              placeholder="Digite seu nome de usuario"
+              required
+            />
+          </label>
+          <label for="password">
+            Senha <span>*</span>
+            <input
+              id="password"
+              type="password"
+              placeholder="Digite sua senha"
+              required
+            />
+          </label>
+          <label for="password">
+            Confirme sua senha <span>*</span>
+            <input
+              id="confirm-password"
+              type="password"
+              placeholder="Digite sua senha"
+              required
+            />
+          </label>
+        </div>
+        <div class="options">
+          <label for="forget">
+            <input id="forget" type="checkbox" />
+            Aceito os <a href="">termos e condições</a>
+          </label>
+        </div>
+        <button>Registrar</button>
+      </div>
+      <div class="people">
+        <div class="circle"></div>
+        <img src="assets/undraw_Hiking_re_k0bc.svg" alt="" />
+      </div>
+    </main>
+
+    <script src="login.js"></script>
+  </body>
+</html>

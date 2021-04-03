@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin-left: 80px;
+  margin-top: 70px;
+  overflow: hidden;
+}
+
+body#register-field {
+  margin-top: 10px;
+  margin-left: 160px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-weight: normal;
+}
+
+#register-field h1 {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+  display: block;
+  width: 338px;
+  height: 34px;
+  border-radius: 20px;
+  border: 0.5px solid #d0c8c8;
+  padding: 20px;
+  outline: none;
+  margin: 10px 0 20px 0;
+}
+
+#register-field input[type="text"],
+#register-field input[type="password"] {
+  height: 20px;
+  margin: 10px 0 15px 0;
+}
+
+label {
+  font-size: 18px;
+}
+
+label span {
+  color: #c200fb;
+}
+
+.login-field {
+  display: flex;
+  align-items: center;
+}
+
+.login-field > div:first-child {
+  display: grid;
+  justify-items: center;
+  max-width: 340px;
+}
+
+.login-with-google {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #c200fb;
+  padding: 10px;
+  border-radius: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+#register-field .login-with-google {
+  margin-bottom: 20px;
+}
+
+#register-field #or {
+  margin-bottom: 20px;
+}
+
+#register-field button {
+  margin-top: 20px;
+}
+
+#or {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  gap: 20px;
+  color: #d0c8c8;
+  margin-bottom: 35px;
+}
+
+#or::before,
+#or::after {
+  content: "";
+  display: inline-block;
+  width: 128px;
+  height: 0.5px;
+  background: #d0c8c8;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.options label {
+  font-size: 14px;
+}
+
+.user-options a {
+  display: block;
+  font-size: 14px;
+  text-align: end;
+  color: #c200fb;
+}
+
+button {
+  width: 100%;
+  font-size: 18px;
+  border-radius: 20px;
+  border: none;
+  background: #c200fb;
+  color: #fff;
+  padding: 7px;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+.people img {
+  position: absolute;
+  left: 540px;
+  top: 122px;
+}
+
+.circle {
+  width: 980px;
+  height: 980px;
+  border-radius: 50%;
+  background: #c200fb;
+  position: absolute;
+  left: 776px;
+  top: -139px;
+  z-index: -1;
+}
+
+#register-field .people img {
+  width: 700px;
+  left: 650px;
+  top: 10px;
+}
