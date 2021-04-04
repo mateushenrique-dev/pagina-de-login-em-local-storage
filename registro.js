@@ -65,7 +65,7 @@ function salvarDados() {
                     timer: 4000,
                   });
                   setTimeout(() => {
-                    window.location.href = '/login.html'
+                    window.location.href = '/index.html'
                   }, 5000)
                 }
               } else {
