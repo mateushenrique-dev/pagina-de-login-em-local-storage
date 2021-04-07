@@ -5,7 +5,7 @@
 - [Sobre](#Sobre)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [Feito com](#Feitocom)
+- [Tecnologias](#tecnologias)
 - [Autor](#autor)
 
 ## Sobre
@@ -24,7 +24,7 @@ Design e código desenvolvido por mim, créditos ás ilustrações ao site: (htt
 
 - Live Site URL: (https://login-page-mateushenrique-dev.netlify.app/)
 
-### Construido com
+### Tecnologias
 
 - Tags semânticas de HTML5
 - CSS propriedades comuns
